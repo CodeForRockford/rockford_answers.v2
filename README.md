@@ -1,6 +1,6 @@
 # rockford_answers.v2
 
-Easier answers to citizens questions  http://answers.rockfordil.gov/
+Easier answers to question citizens  ~~answers.rockfordil.gov~~ http://rockfordanswers.parseapp.com
 
 
 ## Schema
@@ -17,3 +17,9 @@ Easier answers to citizens questions  http://answers.rockfordil.gov/
 
 ### tags
 + tag (string)
+
+### queryLogs
++ query (string)
++ url (string)
++ userAgent (string)
++ ip (string)
