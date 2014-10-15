@@ -8,3 +8,6 @@
 ## Front-end (Backbone or other framework)
 + Wait for back-end to fill out more
 + Come up with front-end tasks
+
+## Non-core features
++ Simple helpful/not-helpful flag
