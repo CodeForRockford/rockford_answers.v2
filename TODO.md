@@ -1,4 +1,6 @@
 # Todo!
++ Add config to .gitignore
++ Convert gitlab parse repo into public repo
 
 ## Back-end (Parse)
 + Michael’s crap search
@@ -22,3 +24,4 @@
 
 ## Non-core features
 + Simple helpful/not-helpful flag
++ Last changed/reviewed view to fight staleness
