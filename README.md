@@ -2,6 +2,7 @@
 
 Easier answers to question citizens  ~~answers.rockfordil.gov~~ http://rockfordanswers.parseapp.com
 
+## Search endpoint example: http://rockfordanswers.parseapp.com/api/v1/search?question=license&questionCategory=How%20do
 
 ## Schema
 
