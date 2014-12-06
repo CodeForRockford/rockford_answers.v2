@@ -2,20 +2,20 @@
 
 /**
  * @ngdoc overview
- * @name rockfordAnswersv2App
+ * @name rockfordAnswers
  * @description
- * # rockfordAnswersv2App
+ * # rockfordAnswers
  *
  * Main module of the application.
  */
 angular
   .module('rockfordAnswers', [
-    'ngAnimate',
     'ngCookies',
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch',
+    'ui.select'
   ])
   .config(function ($routeProvider) {
     $routeProvider

@@ -1,17 +1,22 @@
 <div class="jumbotron">
-  <h1>Rockford Q&amp;A</h1>
-  <p class="lead">
-    Here to answer your questions about Rockford, IL.
-  </p>
-  
-  <div class="row marketing">
-      <form role="form" name="questionForm">
-          <div class="form-group">
-            <label for="question">What's your question?</label>
-            <input type="text" class="form-control" id="question" placeholder="How do I...?" ng-model="query" required>
-          </div>
-          <button type="submit" class="btn btn-default" ng-disabled="questionForm.$invalid">Submit</button>
-      </form>
+    <h1>Rockford Q&amp;A</h1>
+    <p class="lead">
+        Here to answer your questions about Rockford, IL.
+    </p>
+
+    <div class="row marketing">
+        <form role="form" name="questionForm">
+            <div class="form-group">
+                <label for="question">What's your question?</label>
+                <ui-select ng-model="question.selected" theme="bootstrap" ng-disabled="disabled">
+                    <ui-select-match placeholder="How do I...?">{{$select.selected.question}}</ui-select-match>
+                    <ui-select-choices repeat="question in questions | filter:$select.search">
+                        <div>{{question.question}}</div>
+                    </ui-select-choices>
+                </ui-select>
+            </div>
+            <!--<button type="submit" class="btn btn-default" ng-disabled="questionForm.$invalid">Submit</button>-->
+        </form>
     </div>
 </div>
 

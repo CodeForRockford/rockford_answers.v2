@@ -51,6 +51,11 @@ body {
   padding: 14px 24px;
 }
 
+.ui-select-bootstrap .btn{
+    font-size:16px;
+    padding:5px;
+}
+
 /* Supporting marketing content */
 .marketing {
   margin: 40px 0;
