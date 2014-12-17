@@ -1,6 +1,7 @@
 # Todo!
 + Add config to .gitignore
 + Convert gitlab parse repo into public repo
++ Determine which license(s) this code will use
 
 ## Back-end (Parse)
 + Michael’s crap search
