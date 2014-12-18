@@ -32,7 +32,26 @@
         <h3 class="text-muted">rockfordAnswersv2</h3>
       </div>
 
-      <div ng-view=""></div>
+      <div class="search">
+        <div ng-view="">
+          <div id="u2" class="text">
+           <p>How do I...</p>
+          </div>
+
+          <div id="u3" class="text">
+           <p><input id="u4_input" type="text" size="37" value="Finish the sentence here: &quot;How do I...&quot;"/></p>
+          </div>
+
+          <div id="u4" class="html_button">
+            <input id="u6_input" type="submit" style="width:125px" value="Reset"/>
+            <input id="u5_input" type="submit" style="width:125px" value="Get The Answer"/>
+          </div>
+        </div>
+      </div>
+
+      <div class="results">
+        <div ng-view="">
+      </div>
 
       <div class="footer">
         <p><span>Developed by the fine volunteers of Code For Rockford, a Code For America Brigade. Licensed under GPL2, or 3, or something we have yet to determine?</span></p>
