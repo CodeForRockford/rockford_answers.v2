@@ -4,7 +4,7 @@
 + Determine which license(s) this code will use
 
 ## Back-end (Parse)
-+ Michael’s crap search
++ Michael’s crap search. This really needs to be crappy
 + Define tag manager responsibilities and specifications
 + Continue to stub out api endpoints and functions
 
