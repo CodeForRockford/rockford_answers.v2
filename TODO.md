@@ -1,7 +1,9 @@
 # Documentation
 + Add documentation for getting started with front-end project in Windows (GUI) (Webmatrix/Github for Windows)
 + Add documentation for getting started with front-end project in OSX/Linux/Shell in Windows
-+ Add general explanation of group's overall purpose and function and what we look to do at meetings
++ Add documentation for getting started with back-end project in Windows (GUI) (Webmatrix/Github for Windows)
++ Add documentation for getting started with back-end project in OSX/Linux/Shell in Windows
+
 
 # Todo!
 + Add config to .gitignore
@@ -20,11 +22,11 @@
 + 
 
 ## Front-end appearance
-+ Name, logo and domain (Jen)
-+ Theme of site that fits content
++ Name, logo and domain (Jen, but this might wait until we actually demo this as -working- for the city/county/etc., per Jen 20150121)
++ Theme of site that fits content (Jen, but this might wait until we actually demo this as -working- for the city/county/etc., per Jen 20150121)
 + Design individual Q&A view
 + Design search results view
-+ Design tag view
++ Design tag view for answer categories
 + Design question category view
 + Design admin appearances (basic)
 
