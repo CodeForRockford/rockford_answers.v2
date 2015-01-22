@@ -4,9 +4,9 @@
 + Determine which license(s) this code will use
 
 ## Back-end (Parse)
-+ Michael’s crap search. This really needs to be crappy
++ Search: better ranking priority
 + Define tag manager responsibilities and specifications
-+ Continue to stub out api endpoints and functions
++ Admin API endpoints (how answers are created, updated and deleted)
 
 ## Front-end user experience function (Backbone or other framework)
 + 
