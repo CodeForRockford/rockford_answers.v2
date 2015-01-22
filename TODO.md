@@ -1,3 +1,8 @@
+# Documentation
++ Add documentation for getting started with front-end project in Windows (GUI) (Webmatrix/Github for Windows)
++ Add documentation for getting started with front-end project in OSX/Linux/Shell in Windows
++ Add general explanation of group's overall purpose and function and what we look to do at meetings
+
 # Todo!
 + Add config to .gitignore
 + Convert gitlab parse repo into public repo
